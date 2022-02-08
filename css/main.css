@@ -1,0 +1,114 @@
+.formulario {
+  padding: 0px 20%; }
+
+* {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  /* header */ }
+  * a {
+    text-decoration: none; }
+  * a:visited {
+    color: black; }
+  * body {
+    background-color: #f8f5ee; }
+  * .container__ {
+    background-image: url("../img/3.png");
+    background-size: cover; }
+  * header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; }
+    * header .logo {
+      padding: 0px 15px;
+      font-weight: bold; }
+    * header ul {
+      display: flex;
+      list-style: none;
+      padding: 10px; }
+      * header ul a {
+        text-decoration: none;
+        color: black; }
+        * header ul a li {
+          padding: 0px 5px; }
+    * header .signIn {
+      border: 2px solid black;
+      border-radius: 20px;
+      padding: 4px 20px;
+      margin-right: 7px;
+      font-size: 0.8em; }
+
+/* main */
+main {
+  margin-left: 5%;
+  margin-top: 7%; }
+  main h1 {
+    font-size: 4em;
+    font-weight: lighter;
+    line-height: 60px; }
+  main p {
+    width: 40%; }
+  main button {
+    border: 2px solid black;
+    padding: 4px 20px;
+    margin-right: 7px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    font-size: 0.8em;
+    transition: 0.4s; }
+  main button:hover {
+    background-color: black;
+    color: white; }
+
+/* contenido */
+.articleContent {
+  display: flex;
+  width: 90%;
+  height: 500px;
+  background-color: white;
+  border-radius: 5px;
+  justify-content: center; }
+
+footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+  width: 100%;
+  background-color: black; }
+  footer h5 {
+    color: white;
+    padding-left: 4em; }
+  footer p {
+    color: white;
+    font-size: 0.8em; }
+  footer p {
+    padding-right: 4em;
+    margin: 10px; }
+
+.containerFrontCards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center; }
+
+.Titulo {
+  text-align: left;
+  padding: 20px;
+  font-size: 2em;
+  text-align: center; }
+
+.card {
+  padding: 20px;
+  margin: 10px; }
+
+.btn {
+  border: 2px solid black;
+  padding: 4px 20px;
+  margin-right: 7px;
+  margin-top: 10px;
+  margin-bottom: 40px;
+  font-size: 0.8em;
+  background-color: #f8f5ee;
+  color: black; }
