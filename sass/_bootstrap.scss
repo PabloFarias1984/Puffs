@@ -1,0 +1,21 @@
+.card{
+    padding: 20px;
+    margin: 10px;
+}
+.btn{
+    border: 2px solid $negro;
+    padding: 4px 20px;
+    margin-right: 7px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    font-size: 0.8em;
+    background-color: $fondo;
+    color: $negro;
+
+}
+.containerFrontCards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}

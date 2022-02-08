@@ -1,6 +1,7 @@
 @import 'colores';
 @import 'medias';
 @import 'contacto';
+@import 'bootstrap';
 *{
     font-family: 'Poppins', sans-serif;
     margin: 0;
@@ -123,14 +124,6 @@ footer{
         margin: 10px;
     }
 }
-
-.containerFrontCards{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
 .Titulo{
     text-align: left;
     padding: 20px;
@@ -139,18 +132,3 @@ footer{
 
 }
 
-.card{
-    padding: 20px;
-    margin: 10px;
-}
-.btn{
-    border: 2px solid $negro;
-    padding: 4px 20px;
-    margin-right: 7px;
-    margin-top: 10px;
-    margin-bottom: 40px;
-    font-size: 0.8em;
-    background-color: $fondo;
-    color: $negro;
-
-}
