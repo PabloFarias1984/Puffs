@@ -4,7 +4,10 @@
   .signIn {
     display: none; }
   .logo {
-    margin-top: 15px; } }
+    margin-top: 15px; }
+  header {
+    align-items: end;
+    background-color: aqua; } }
 
 .formulario {
   padding: 0px 20%; }
@@ -28,6 +31,12 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center; }
+
+h1 {
+  color: blue; }
+
+.img_productos {
+  width: 2fr; }
 
 * {
   font-family: 'Poppins', sans-serif;
@@ -73,7 +82,8 @@ main {
   main h1 {
     font-size: 4em;
     font-weight: lighter;
-    line-height: 60px; }
+    line-height: 60px;
+    color: black; }
   main p {
     width: 40%; }
   main button {
@@ -120,3 +130,6 @@ footer {
   padding: 20px;
   font-size: 2em;
   text-align: center; }
+
+.container {
+  height: 100%; }

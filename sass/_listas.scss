@@ -1,0 +1,11 @@
+$paletas:
+red,
+blue,
+white,
+black,
+green;
+
+h1{
+    color: nth($paletas, 2);
+}
+
