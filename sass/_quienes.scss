@@ -1,0 +1,12 @@
+.img-quienes {
+    background-image: url("../img/quienes.jpeg");
+    background-size: cover;
+    width: 1fr;
+    height: 1fr;
+}
+
+.contenedor-quienes{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-left: 100px;
+}

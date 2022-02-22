@@ -4,13 +4,13 @@
   .signIn {
     display: none; }
   .logo {
-    margin-top: 15px; }
-  header {
-    align-items: end;
-    background-color: aqua; } }
+    margin-top: 15px; } }
 
 .formulario {
   padding: 0px 20%; }
+
+.relleno {
+  height: 300px; }
 
 .card {
   padding: 20px;
@@ -37,6 +37,47 @@ h1 {
 
 .img_productos {
   width: 2fr; }
+
+.img-quienes {
+  background-image: url("../img/quienes.jpeg");
+  background-size: cover;
+  width: 1fr;
+  height: 1fr; }
+
+.contenedor-quienes {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-left: 100px; }
+
+.contenido {
+  margin: 15px;
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: repeat(3, 1fr); }
+
+/* CARDS @EXTEND */
+button {
+  border-radius: 10px;
+  padding: 10px; }
+
+img {
+  width: 50px; }
+
+.titulo {
+  font-weight: bolder;
+  font-size: 20px; }
+
+.textocards {
+  font-size: 15px; }
+
+.card5 {
+  grid-column-start: 2;
+  grid-column-end: 4; }
+
+@media (max-width: 50em) {
+  .contenido {
+    display: flex;
+    flex-flow: wrap; } }
 
 * {
   font-family: 'Poppins', sans-serif;
