@@ -12,7 +12,9 @@
 @media (max-width: 50em) {
   .card {
     display: flex;
-    flex-flow: wrap; } }
+    flex-flow: wrap; }
+  .texto-main {
+    width: 80%; } }
 
 .formulario {
   padding: 0px 20%; }
