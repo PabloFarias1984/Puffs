@@ -8,9 +8,18 @@
         display: none;
     }
     .logo{
-        margin-top: 15px;
+        margin-top: 15px;    
+    }
+    h1{
+        font-size: 1em;
+    }
 }
 
+
+@media (max-width:50em) {
+    .card {
+        display: flex;
+        flex-flow: wrap;
+    }
+
 }
-
-

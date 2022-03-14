@@ -1,16 +1,28 @@
+@charset "UTF-8";
 @media (max-width: 567px) {
   body nav {
     display: none; }
   .signIn {
     display: none; }
   .logo {
-    margin-top: 15px; } }
+    margin-top: 15px; }
+  h1 {
+    font-size: 1em; } }
+
+@media (max-width: 50em) {
+  .card {
+    display: flex;
+    flex-flow: wrap; } }
 
 .formulario {
   padding: 0px 20%; }
 
 .relleno {
   height: 300px; }
+
+.enviar_ {
+  margin-top: 20px;
+  padding: 2px 20px; }
 
 .card {
   padding: 20px;
@@ -79,6 +91,51 @@ img {
     display: flex;
     flex-flow: wrap; } }
 
+footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  color: aliceblue; }
+  footer h5 {
+    color: white;
+    padding-left: 2em;
+    padding-right: 1em; }
+  footer p {
+    color: white;
+    font-size: 0.8em;
+    padding-right: 4em;
+    margin: 10px; }
+  footer .footer_acerca {
+    width: 30%;
+    padding-top: 20px;
+    padding-bottom: 20px; }
+  footer a:visited {
+    color: white; }
+
+@media (max-width: 50em) {
+  footer {
+    display: grid;
+    grid-template-columns: 3fr;
+    padding-left: 50px; }
+    footer h5 {
+      padding-left: 10px;
+      padding-top: 50px; }
+    footer p {
+      color: white;
+      padding-bottom: 20px; }
+    footer .footer_acerca {
+      width: 80%;
+      padding-top: 20px;
+      padding-bottom: 20px; } }
+
+/* TAMAÑO PRINCIPAL DE H1 */
+h1 {
+  font-size: 3em; }
+
 * {
   font-family: 'Poppins', sans-serif;
   margin: 0;
@@ -111,7 +168,7 @@ img {
           padding: 0px 5px; }
     * header .signIn {
       border: 2px solid black;
-      border-radius: 20px;
+      border-radius: 0px;
       padding: 4px 20px;
       margin-right: 7px;
       font-size: 0.8em; }
@@ -121,10 +178,11 @@ main {
   margin-left: 5%;
   margin-top: 7%; }
   main h1 {
-    font-size: 4em;
     font-weight: lighter;
     line-height: 60px;
     color: black; }
+  main span {
+    font-weight: 600; }
   main p {
     width: 40%; }
   main button {
@@ -148,24 +206,6 @@ main {
   border-radius: 5px;
   justify-content: center; }
 
-footer {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-  height: 100%;
-  width: 100%;
-  background-color: black; }
-  footer h5 {
-    color: white;
-    padding-left: 4em; }
-  footer p {
-    color: white;
-    font-size: 0.8em; }
-  footer p {
-    padding-right: 4em;
-    margin: 10px; }
-
 .Titulo {
   text-align: left;
   padding: 20px;
@@ -174,3 +214,8 @@ footer {
 
 .container {
   height: 100%; }
+
+.video {
+  width: 100%;
+  height: 500px;
+  padding: 0px 50px; }

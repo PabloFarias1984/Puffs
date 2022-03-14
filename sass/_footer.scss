@@ -1,0 +1,58 @@
+footer{
+
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+    background-color: $negro;
+    color: aliceblue;
+    h5{
+        color: white;
+        padding-left: 2em;
+        padding-right: 1em;
+    }
+    p{
+        color: white;
+        font-size: 0.8em;
+        padding-right: 4em;
+        margin: 10px;
+
+    }
+    .footer_acerca{
+        width: 30%;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    a:visited {
+        color: white;
+    
+    
+    }
+}
+
+
+@media (max-width:50em) {
+    footer {
+        display: grid;
+        grid-template-columns: 3fr;
+   padding-left: 50px;
+
+    h5{
+        padding-left: 10px;
+        padding-top: 50px;
+    }
+    p{
+        color: white;
+        padding-bottom: 20px;
+
+    }
+    .footer_acerca{
+        width: 80%;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+}
+  }
